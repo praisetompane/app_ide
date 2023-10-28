@@ -1,1 +1,2 @@
-pipenv run python main.py
+cd ./src/
+python app.py

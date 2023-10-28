@@ -1,0 +1,18 @@
+{
+	"name": "app_ide",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"ms-python.debugpy",
+				"ms-python.mypy-type-checker"
+			],
+			"settings": {}
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/app_ide,type=bind,consistency=delegated",
+	"workspaceFolder": "/app_ide"
+}

@@ -1,4 +1,4 @@
-from app.model.stack import Stack
+from app_ide.model.stack import Stack
 
 """
     general use case = undo operations

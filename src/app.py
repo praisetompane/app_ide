@@ -1,4 +1,4 @@
-from app.ide import IDE
+from app_ide.ide import IDE
 
 
 def main():
@@ -30,4 +30,5 @@ def main():
     )
 
 
-main()
+if __name__ == "__main__":
+    main()

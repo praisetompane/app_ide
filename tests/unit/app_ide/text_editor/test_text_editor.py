@@ -1,7 +1,7 @@
-from app.text_editor.text_editor import TextEditor
+from app_ide.text_editor.text_editor import TextEditor
 
 
-def main():
+def test_editor():
     print("Praise typing his body of knowldge")
     text_processor = TextEditor("")
     print("My blank slate")
@@ -19,7 +19,3 @@ def main():
     text_processor.redo()
     text_processor.write(" that")
     text_processor.undo()
-
-
-if __name__ == "__main__":
-    main()
