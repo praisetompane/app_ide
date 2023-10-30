@@ -5,8 +5,8 @@ Messing around with some barebones constructs required in an IDE.
 
 
 ## setup instructions:
-1. install `python 3.11` or higher.
-    - [Python Download]: (https://www.python.org/downloads/)
+1. install `python 3.12+`.
+    - [Python Download](https://www.python.org/downloads/)
 
 2. clone repo:
     ```shell
@@ -15,11 +15,14 @@ Messing around with some barebones constructs required in an IDE.
 
 ## package management:
 - install pipenv: https://pypi.org/project/pipenv/
-## run program:
+
 - install packages into local environment using pipenv[**only required for first run**]:
     ```shell
     pipenv install
     ```
+    
+## run program:
+
 - to start system run:
     ```shell
     ./start_system.sh

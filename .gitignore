@@ -166,3 +166,6 @@ Docker.dmg
 postgres_data
 
 .DS_Store
+
+.pytest_cache
+.mypy_cache
