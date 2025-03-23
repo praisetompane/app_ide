@@ -1,7 +1,7 @@
-from app_ide.ide import IDE
+from app_ide.ide.ide import IDE
 
 
-def main():
+def test_ide():
     current_document = ""
     ide = IDE(current_document)
 
@@ -28,7 +28,3 @@ def main():
         }
     """
     )
-
-
-if __name__ == "__main__":
-    main()

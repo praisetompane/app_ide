@@ -5,7 +5,7 @@ def test_editor():
     print("Praise typing his body of knowldge")
     text_processor = TextEditor("")
     print("My blank slate")
-    text_processor.display()
+    text_processor.render()
     text_processor.write("I")
     text_processor.write(" ")
     text_processor.write("k")

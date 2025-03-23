@@ -36,9 +36,8 @@ A plain Python IDE to explore barebones constructs required in an IDE.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
     
 ## Run Program
-- Start system run
     ```shell
-    ./start_system.sh
+    python src/app.py
     ```
 
 ## Testing
