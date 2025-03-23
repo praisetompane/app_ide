@@ -35,3 +35,9 @@ class IDE:
 
     def redo(self):
         self._text_editor.redo()
+
+    def read(self):
+        return self._text_editor.document
+
+    def render_document(self):
+        self._text_editor.render()
