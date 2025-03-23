@@ -3,8 +3,7 @@
 
 
 ## Objectives
-Messing around with some barebones constructs required in an IDE.
-
+A plain Python IDE to explore barebones constructs required in an IDE.
 
 ## Project Structure
 - docs: Project documentation lives in here.
